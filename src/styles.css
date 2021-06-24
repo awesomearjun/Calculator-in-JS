@@ -1,0 +1,33 @@
+#app {
+  display: grid;
+  grid-template-columns: 150px 100px;
+  border: 1px solid black;
+  width: 170px;
+  border-radius: 5px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 49px 49px 49px 49px;
+  grid-template-rows: 49px 49px 49px 49px;
+  grid-gap: 2px;
+  padding: 10px;
+}
+
+.operator {
+  grid-template-columns: 29px 29px 29px 29px 29px;
+  grid-template-rows: 29px 29px 29px 29px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50%;
+}
+
+.equal {
+  background: blue;
+  color: white;
+}
